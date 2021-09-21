@@ -1,0 +1,25 @@
+.herobgcolor {
+    padding: 10rem 0;
+    background-image: url('https://www.designesia.com/themes/gigaland/images/background/bg-shape-1-dark.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.text_sel {
+    font-weight: bold !important;
+    text-align: start;
+    font-size: 4rem !important; 
+    color: white;
+}
+.discover {
+    font-weight: bold;
+    background: linear-gradient(to right, #007FFF, #c14de7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.mintsbgcolor {
+    background-color: #161d30;
+    padding: 2rem 0;
+}
+ 

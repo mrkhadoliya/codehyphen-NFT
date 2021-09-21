@@ -1,0 +1,16 @@
+.cardbgclr {
+    background-color: #202443 !important;
+    padding: 2rem;
+}
+.sellercardbg {
+    background-color: #20244300 !important; 
+}
+.walleticons i {
+    background-color: #7366f0;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+}
+.textwhite{
+    color: #fff;
+}
