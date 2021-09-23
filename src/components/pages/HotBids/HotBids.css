@@ -1,0 +1,20 @@
+.menubg ul {
+    background: #202443;
+    border: 1px dashed #318be8;
+    position: relative;
+}
+.Hot_bids {
+    padding: 5rem 0;
+}
+.clock { 
+    background: #161d30;
+    padding: 4px 13px;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-top: -1.2rem;
+    z-index: 1;
+    position: relative;
+    width: 190px;
+    border: 1px dashed #af51e9;
+
+}

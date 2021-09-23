@@ -1,8 +1,8 @@
-import { Container, Grid, Typography } from '@material-ui/core'
+import { Container, Grid, Typography } from '@mui/material'
+import { makeStyles } from '@material-ui/core/styles' 
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles'
-import '../HotCollection/HotCollections.css' 
-import { HotCarousel } from './HotCarousel' 
+import { HotBidCard } from './HotBidCard'
+import { HotBidCarousel } from './HotBidCarousel'
 
 const useStyles = makeStyles ((theme) => ({
     gridline: {
@@ -14,21 +14,20 @@ const useStyles = makeStyles ((theme) => ({
         textAlign: 'center',
         color: theme.palette.text.white, 
     }, 
-}))
-  
-export const HotCollections = () => {
+}));
 
-    const classes = useStyles ();
- 
+export const HotBidIndex = () => {
+    
+    const classes = useStyles (); 
 
     return (
-        <main className="hotcollectionbg">
+         <main className="Hot_bids">
             <Container>
-                <Grid spacing={2} container className={classes.gridline}>
+                <Grid spacing={2} container>
                     <Grid item xs={12} md={12}>
                         <div className={classes.paper}>
                             <Typography variant="h3" component="h2" className="textwhite" gutterBottom>
-                                <span className="discover">Hot Collections</span>
+                                <span className="discover">Hot bids </span>
                             </Typography>
                             <Typography variant="h6" component="h2" className="textwhite" gutterBottom>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -36,14 +35,14 @@ export const HotCollections = () => {
                         </div>
                     </Grid> 
                 </Grid>
-            </Container>
-            <Container maxWidth="lg">
-                <Grid spacing={2} container className={classes.Hot}> 
-                    <Grid item xs={12} md={12}>
-                        <HotCarousel />
+             </Container>
+            <Container maxWidth="xl">
+                <Grid spacing={2} container> 
+                    <Grid item xs={12} md={12}>  
+                        <HotBidCarousel/>
                     </Grid>
                 </Grid>
-            </Container>
-        </main>
+             </Container>
+         </main>
     )
 }

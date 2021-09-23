@@ -1,9 +1,22 @@
-.cardbgclr {
-    background-color: #202443 !important;
-    padding: 2rem;
+.cardbgclr { 
+    padding: 2rem; 
+    background-color: #202443 !important; 
+    border: 1px dashed #5a64af;
 }
 .sellercardbg {
-    background-color: #20244300 !important; 
+    background-color: #202443 !important;
+    border: 1px dashed #3970f8;
+    border-radius: 10px !important;
+}
+.topbox {
+    padding-bottom: 0px !important;
+    padding-top: 0 !important;
+    padding-left: 10px !important;
+}
+.sellercardbg i {
+    color: #107cfe;
+    margin-left: -9px;
+    z-index: 1;
 }
 .walleticons i {
     background-color: #7366f0;

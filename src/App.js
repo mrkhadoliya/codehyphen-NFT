@@ -6,6 +6,8 @@ import MintPage from './components/pages/MintPage';
 import './App.css';
 import { HotCollections } from './components/pages/HotCollection/HotCollections'; 
 import { TopSeller } from './components/pages/TopSellers/TopSeller';
+import { Footer } from './components/Footer/FooterPage/Footer'; 
+import { HotBidIndex } from './components/pages/HotBids/HotBidIndex';
  
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <MintPage />
           <HotCollections />
           <TopSeller />
+          <HotBidIndex />
+          <Footer/>
       </div>
     </ThemeProvider>
   );

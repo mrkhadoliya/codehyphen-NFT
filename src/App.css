@@ -2,5 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #fff !important;
+  letter-spacing: 1px !important; 
+}
+body {
+  background-color: #161d30;
+  color: #fff !important;
 }
